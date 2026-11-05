@@ -1,0 +1,23 @@
+# Python / Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Sensitive sessions & credentials
+session_cookies.json
+*.env
+credentials.json
+
+# Local artifacts / images / screenshots
+*.png
+*.jpg
+*.jpeg
+*.webp
+static/mutated_*
+
+# Runtime IPC folders
+inbox/
+outbox/
